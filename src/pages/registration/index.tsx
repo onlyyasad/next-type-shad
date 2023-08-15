@@ -8,4 +8,12 @@ const RegistrationPage = () => {
     );
 };
 
+RegistrationPage.getLayout = function getLayout(page) {
+    return (
+      <>
+      {page}
+      </>
+    )
+}
+
 export default RegistrationPage;

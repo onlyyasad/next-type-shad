@@ -18,12 +18,6 @@ const AboutUs = () => {
     );
 };
 
-AboutUs.getLayout = function getLayout(page) {
-    return (
-      <>
-      {page}
-      </>
-    )
-}
+
 
 export default AboutUs;

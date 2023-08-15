@@ -1,3 +1,4 @@
+import Header from '@/components/Header/Header';
 import React from 'react';
 
 const LoginPage = () => {
@@ -7,5 +8,14 @@ const LoginPage = () => {
         </div>
     );
 };
+
+LoginPage.getLayout = function getLayout(page) {
+    return (
+      <>
+      <Header/>
+      {page}
+      </>
+    )
+}
 
 export default LoginPage;

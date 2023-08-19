@@ -15,10 +15,10 @@ const BlogsCard = ({blog}) => {
         <Card>
             <CardHeader>
                 <CardTitle>{blog.title}</CardTitle>
-                <CardDescription>{blog.body}</CardDescription>
+                <CardDescription></CardDescription>
             </CardHeader>
             <CardContent>
-                <p>Card Content</p>
+                <p>{blog.body}</p>
             </CardContent>
             <CardFooter>
                 <p>Card Footer</p>

@@ -4,11 +4,11 @@ import Footer from '../Footer/Footer';
 
 const Layout = ({children}) => {
     return (
-        <>
+        <div className='max-w-5xl mx-auto'>
             <Header/>
             {children}
             <Footer/>
-        </>
+        </div>
     );
 };
 
